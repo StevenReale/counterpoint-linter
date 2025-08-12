@@ -1,0 +1,9 @@
+{
+  "name": "counterpoint-root",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "npm run build -w packages/engine && npm run build -w apps/web",
+    "dev:web": "npm run dev -w apps/web"
+  }
+}
