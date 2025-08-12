@@ -1,0 +1,1 @@
+# Counterpoint Linter (React + TS)
